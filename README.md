@@ -1,5 +1,5 @@
 # ssm
-前端
+#前端
 
 开发工具：IDEA
 开发框架：Vue + axios + elementUI
@@ -17,9 +17,9 @@
 分页
 批量删除
 前后端分离
-数据库环境搭建：
+#数据库环境搭建：
 
-SET FOREIGN_KEY_CHECKS=0;
+<!-- SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for `login`
 -- ----------------------------
@@ -66,30 +66,34 @@ INSERT INTO user VALUES ('15968943937844616', '身份证', '4454534436565756', '
 INSERT INTO user VALUES ('15968944123869023', '护照', '43225465457657', 'VCD法国', '女', '39', '农、林、牧、渔、水利业生产人员');
 INSERT INTO user VALUES ('15968953962316864', '身份证', '342354325', '房东是个大帅哥', '女', '33', '商业、服务业人员');
 INSERT INTO user VALUES ('15968954638794962', '身份证', '430528200012135878', '吕强', '女', '40', '办事人员和有关人员');
+ -->
 
 
 
 
 
 
-
-创建ssm环境：
+#创建ssm环境：
 网上教程过多就不再介绍了。
 
-创建vue环境
-cd D:\Program Files\JetBrains\workspace\ssm-vue   //进入你项目的目录
+#创建vue环境
 
-vue init webpack vue_project
+#cd D:\Program Files\JetBrains\workspace\ssm-vue   //进入你项目的目录
 
-cd vue_project
+#vue init webpack vue_project
 
-npm i element-ui -S
+#cd vue_project
 
-npm install
+#npm i element-ui -S
 
-cnpm install --save vue-axios
+#npm install
 
-cnpm install sass-loader node-sass --save-dev
+#cnpm install --save vue-axios
 
-npm run dev
+#cnpm install sass-loader node-sass --save-dev
+
+#npm run dev
+
+#能够在浏览器打开表示搭建成功。
+#需要解决跨域。
 
