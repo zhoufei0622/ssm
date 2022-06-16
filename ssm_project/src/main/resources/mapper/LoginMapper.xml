@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kuang.dao.LoginMapper">
+    <select id="doLogin" parameterType="com.kuang.pojo.Login" resultType="com.kuang.pojo.Login">
+        select * from login where username = #{username} and password = #{password}
+    </select>
+
+    <insert id="register" parameterType="com.kuang.pojo.Login" >
+        insert into login(username,email,password)  value(#{username},#{email},#{password})
+    </insert>
+
+</mapper>
